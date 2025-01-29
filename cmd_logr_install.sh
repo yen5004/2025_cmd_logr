@@ -43,3 +43,4 @@ update_shell_config ~/.zshrc "$name"
 
 # Notify user that the script has finished
 echo "Command logger installation complete"
+echo "cmd_logr_install.sh finished!"
