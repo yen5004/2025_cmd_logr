@@ -5,6 +5,9 @@
 # Ensure the ~/log directory exists, create it if it doesn't
 mkdir -p ~/log
 
+# Grant read and write permissions
+chmod -R a+rw ~/log/
+
 # Function to add common content to both .bashrc and .zshrc
 update_shell_config() {
     local config_file=$1
