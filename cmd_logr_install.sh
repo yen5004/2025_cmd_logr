@@ -14,7 +14,7 @@ update_shell_config() {
     echo "#   Script created by Franco M." >> "$config_file"
     echo "###########_Custom Script Below_###########" >> "$config_file"
     echo "export NAME=$name" >> "$config_file"
-    echo 'RPROMPT="[%D{%d%b%Y}|%D{%L:%M}]"' >> "$config_file"
+    echo 'RPROMPT="[%D{%d%b%Y}|%D{%H:%M}]"' >> "$config_file"
 
     # Check if logging has already been started, if not, start the script command
     echo 'if [[ ! -f $HOME/.shell_logging_started ]]; then' >> "$config_file"
