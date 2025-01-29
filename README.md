@@ -41,15 +41,15 @@ cd ~/2025_cmd_logr
 ```
 3. Give the correct permissions:
 ```bash
-sudo chmod 777 install_cmd_log.sh
+sudo chmod 777 cmd_logr_install.sh
 ```
 4. Run the installation script:
 ```bash
-bash install_cmd_log.sh
+bash cmd_logr_install.sh
 ```
 Alternate command:
 ```bash
-./install_cmd_log.sh
+./cmd_logr_install.sh
 ```
 
 The script will:
