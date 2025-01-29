@@ -125,6 +125,6 @@ Including:
 * The script looks to make a log folder under you home direcotry typically `~/log`, you can find your logs here
 * The script sometimes loops if you view the log file your currently writing to, measures have been employed to prevent this, but may need to use the cmd `exit` to view the log file.
 * The script will run in each instance of terminal
-* The no frills orginal code can be found here:
+* The no frills orginal code can be found here: https://github.com/yen5004/cmd_loggr/blob/b15627b767f384396397795dab82ccff7ca58416/golden_logr.sh
 
 ## How the script works
