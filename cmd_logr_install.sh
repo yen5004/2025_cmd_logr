@@ -6,7 +6,7 @@
 mkdir -p ~/log
 
 # Grant read and write permissions
-chmod -R a+rw ~/log/
+sudo chmod -R a+rw ~/log/
 
 # Function to add common content to both .bashrc and .zshrc
 update_shell_config() {
